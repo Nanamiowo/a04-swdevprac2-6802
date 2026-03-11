@@ -5,7 +5,7 @@ interface CardProps {
 
 export default function Card({ venueName, imgSrc }: CardProps) {
   return (
-    <div className="w-64 rounded-lg shadow-lg bg-white">
+    <div className="w-64 rounded-lg shadow-lg bg-yellow">
 
       <img
         src={imgSrc}

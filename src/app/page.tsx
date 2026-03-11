@@ -7,7 +7,7 @@ export default function Home() {
 
       <Banner />
 
-      <div className="flex gap-6 p-6 justify-center">
+      <div className="text-blue-500 flex gap-6 p-6 justify-center">
 
         <Card
           venueName="The Bloom Pavilion"
@@ -24,6 +24,9 @@ export default function Home() {
           imgSrc="/img/grandtable.jpg"
         />
 
+      </div>
+      <div className="bg-red-500 text-green-500 text-center p-10 text-4xl">
+        มีการติดตั้งและใช้งาน Tailwind CSS จริงๆนะ ตรงนี้ก็ใช้นะครับ
       </div>
 
     </main>

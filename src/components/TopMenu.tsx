@@ -1,15 +1,17 @@
+import TopMenuItem from "./TopMenuItem"
 export default function TopMenu() {
   return (
     <div style={{
       display: "flex",
       justifyContent: "space-between",
       background: "black",
-      padding: "10px"
+      padding: "50px",
+      fontSize: "50px"
     }}>
 
-      <a href="/booking" style={{color:"white"}}>Booking</a>
+      <TopMenuItem title="Booking" pageRef="/booking/"/>
 
-      <img src="/img/logo.png" className="h-16" />
+      <img src="/img/logo.png" className="h-75" />
 
     </div>
   )
